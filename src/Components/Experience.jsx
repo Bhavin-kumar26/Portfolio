@@ -10,7 +10,7 @@ const Experience = () => {
       desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
       date: "March 2024 - April 2024",
       className: "md:col-span-2",
-      thumbnail: "src/assets/thumbnail1.png",
+      thumbnail: "../assets/thumbnail1.png",
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ const Experience = () => {
       date: "July 2024 - August 2024",
       desc: "Developed and maintained user-facing features using modern frontend technologies at Octanet.",
       className: "md:col-span-2",
-      thumbnail: "src/assets/thumbnail1.png",
+      thumbnail: "../assets/thumbnail1.png",
     },
   ];
   return (
