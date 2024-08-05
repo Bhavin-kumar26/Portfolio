@@ -21,7 +21,7 @@ const Modal = ({ open, setOpen, title, Mainimg, Images, BigDesc, link }) => {
           ease: "easeInOut",
         }}
         onClick={(e) => e.stopPropagation()}
-        className="absolute bottom-0 h-[90vh] w-full overflow-y-scroll rounded-t-3xl mb-10 bg-neutral-900 p-1 md:p-10"
+        className="absolute bottom-0 h-[75vh] w-full overflow-y-scroll rounded-t-3xl mb-10 bg-neutral-900 p-1 md:p-10"
       >
         <div onClick={handleClose} className=" fixed  right-2 md:right-10 text-2xl cursor-pointer">
           <IoClose />
