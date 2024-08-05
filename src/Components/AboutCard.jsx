@@ -15,7 +15,7 @@ const AboutCard = ({content, i,range,targetScale,progress }) => {
   return (
     <div
       ref={container}
-      className=" md:h-screen flex justify-center items-center sticky  -top-[160px] sm:-top-10  md:top-[150px] xl:top-[100px]"
+      className=" md:h-screen flex justify-center items-center sticky  -top-[140px] sm:-top-10  md:top-[150px] xl:top-[100px]"
     
     >
       <motion.div
