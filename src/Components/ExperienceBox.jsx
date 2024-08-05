@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { motion, useMotionTemplate, useMotionValue } from "framer-motion";
-const ExperienceBox = ({ title, desc, thumbnail,company,date, }) => {
+import img from "../assets/thumbnail1.png"
+const ExperienceBox = ({ title, desc,company,date, }) => {
   const border = useRef();
   const offsetX = useMotionValue(-100);
   const offsetY = useMotionValue(-100);
@@ -30,7 +31,7 @@ const ExperienceBox = ({ title, desc, thumbnail,company,date, }) => {
         className=" absolute inset-0 border-2 border-purple-100 rounded-xl "
       ></motion.div>
       <div className=" flex flex-col lg:flex-row justify-center items-center lg:justify-start gap-4 ">
-        <img className=" w-32 object-cover rounded-lg" src={thumbnail} alt={title} />
+        <img className=" w-32 object-cover rounded-lg" src={img} alt={title} />
         <div className=" flex flex-col justify-start items-start">
           <h3 className=" mt-6  font-semibold text-lg">{title}</h3>
           <h6 className=" font-medium uppercase mt-1">{company}</h6>
