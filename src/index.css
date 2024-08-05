@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "DM Sans", sans-serif;
+}
+
+.card {
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  background-image: url("./assets/image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 768px) {
+  .project-card-wrapper:nth-child(even) {
+    margin-top: 100px;
+  }
+}
+
+.nav {
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
